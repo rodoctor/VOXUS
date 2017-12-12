@@ -21,8 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `voxus`
 --
-CREATE DATABASE IF NOT EXISTS `voxus2` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `voxus2`;
+CREATE DATABASE IF NOT EXISTS `voxus` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `voxus`;
 
 -- --------------------------------------------------------
 
