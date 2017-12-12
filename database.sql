@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS 'voxus';
+USE 'voxus';
+
+CREATE TABLE tarefas (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    descricao TEXT NOT NULL,
+    anexo MEDIUMBLOB
+);

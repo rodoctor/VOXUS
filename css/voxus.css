@@ -1,0 +1,153 @@
+body {
+    background-color: #49304F;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    color: #49304F;
+    background-color: #FFF;
+    position: fixed;
+    margin: 0 15%;
+    width: 70%;
+    height: 100%;
+}
+
+/* MENU PRINCIPAL */
+    .cabecalho {
+        top: 0;
+        margin: 0 5%;
+        padding: 1em 0;
+        text-align: center;
+        width: 90%;
+        border-bottom: solid #49304F 1px;
+    }
+
+        .menu-principal > li{
+            display: inline-block;
+            padding: 1ch;
+        }
+
+            .menu-principal > li > a:hover {
+                color: orange;
+            }
+
+/* MENU RODAPE */
+    .rodape {
+        bottom: 0;
+        margin: 0% 5%;
+        padding: 1em 0;
+        text-align: center;
+        width: 90%;
+        position: absolute;
+    }
+
+        .menu-rodape > li{
+            display: inline-block;
+            padding: 1ch;
+        }
+
+            .menu-rodape > li > a:hover {
+                color: orange;
+            }
+
+.conteudo-pagina {
+    width:90%;
+    margin: 0 5% 5% 5%;
+    padding-top: 2em;
+}
+
+.login {
+    width: 60%;
+    border-radius: 10px;
+    border: solid #49304f 5px;
+    padding: 5%;
+    margin: 10% auto 0;
+}
+
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+/* FORMULARIO */
+
+        input[type=text], input[type=file], input[type=password], input[type=email], textarea {
+            width: 100%; 
+            padding: 12px; 
+            border: 1px solid #ccc;
+            border-radius: 4px; 
+            box-sizing: border-box; 
+            margin-top: 6px; 
+            margin-bottom: 16px; 
+            resize: vertical;
+        }
+
+        button[type=submit] {
+            background-color: #49304F;
+            color: #ffff;
+            padding: 0.8em 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type=submit]:hover {
+            background-color: rgb(96, 63, 104);
+        }
+
+/* MENSAGENS*/
+    .sucesso {
+        text-align: center;
+        background-color: #9fc7a5;
+        padding: 1ch 0;
+    }
+
+    .alerta {
+        text-align: center;
+        background-color: #d07878;
+        padding: 1ch 0;
+    }
+
+/* TABELA */
+.tabela {
+    font-size: 0.9em;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.tabela, td, tr {
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 1ch;
+}
+
+.centraliza {
+    text-align: center;
+}
+
+/* BOTÕES */
+.btn {
+ color: #fff;
+ border: 1px #fff;
+ border-radius: 4px;
+ padding: 1ch 0;
+ width: 5em;
+}
+
+.alterar {
+    background-color: #4405c4;
+}
+
+.remover {
+    background-color: #e82c2c;
+}
+
+
