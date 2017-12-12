@@ -21,9 +21,9 @@ $tarefa = buscaTarefa($conexao, $id);
             <textarea name="descricao" id="descricao" cols="30" rows="10"><?=$tarefa['descricao']?></textarea>
 
             <!-- Arquivo -->
-            <label for="anexado">Arquivo Anexado</label>
+            <!-- <label for="anexado">Arquivo Anexado</label>
             <p><a target="_blank" href="<?='upload/'.$tarefa['arquivo']?>"><?=$tarefa['arquivo']?></a></p>
-            <input id ="anexo" name="anexo" type="hidden" value="<?=$tarefa['arquivo']?>">
+            <input id ="anexo" name="anexo" type="hidden" value="<?=$tarefa['arquivo']?>"> -->
             
             <label for="arquivo">Alterar Anexo</label>
             <input type="file" id="arquivo" name="arquivo">

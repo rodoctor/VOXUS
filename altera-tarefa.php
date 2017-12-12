@@ -6,20 +6,15 @@ include('banco-tarefas.php');
     $id = $_POST['id'];
     $nome = $_POST['nome'];
     $descricao = $_POST['descricao'];
-    $anexo = $_FILES['anexo'];
+    // $anexo = $_FILES['anexo'];
     $arquivo = $_FILES['arquivo'];
 
-    echo "arquivo: ".$arquivo['name'];
-    echo "anexo: ".$anexo;
-
-
-
     //Verifica se houve alteração de anexo
-    if($_FILES['arquivo']=null) {
-         $arquivo['name'] = $anexo;
-     } else {
-         $arquivo = $_FILES['arquivo'];
-     };
+    // if($_FILES['arquivo']=null) {
+    //      $arquivo['name'] = $anexo;
+    //  } else {
+    //      $arquivo = $_FILES['arquivo'];
+    //  };
 
     //variaveis de arquivo
     $extensao = strtolower(substr($arquivo['name'], -4)); //pega a ext e deixa minusculo
